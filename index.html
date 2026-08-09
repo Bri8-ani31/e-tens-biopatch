@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-TENS Bio-Patch | Smart Wearable Pain Relief</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased">
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 w-full bg-slate-900/80 backdrop-blur-md border-b border-slate-800 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <div class="w-8 h-8 bg-purple-600 rounded-lg flex items-center justify-center font-bold text-white">E</div>
+                <span class="font-bold text-xl tracking-wide text-white">E-TENS <span class="text-purple-400 text-sm">Bio-Patch</span></span>
+            </div>
+            <div class="hidden md:flex gap-6 text-sm text-slate-300">
+                <a href="#about" class="hover:text-purple-400 transition">About</a>
+                <a href="#tech" class="hover:text-purple-400 transition">Technology</a>
+                <a href="#specs" class="hover:text-purple-400 transition">Specs</a>
+                <a href="#validation" class="hover:text-purple-400 transition">Validation</a>
+            </div>
+            <a href="#demo" class="bg-purple-600 hover:bg-purple-700 text-white text-xs px-4 py-2 rounded-full font-semibold transition">Live Demo</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 px-4 text-center max-w-4xl mx-auto">
+        <div class="inline-flex items-center gap-2 px-3 py-1 bg-purple-950/80 border border-purple-800 rounded-full text-purple-300 text-xs font-medium mb-6">
+            <i class="fa-solid fa-trophy text-amber-400"></i> National Champions — Navkriti Idea Rangmach
+        </div>
+        <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-6">
+            Autonomous, Drug-Free Relief for <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500">Period Pain</span>
+        </h1>
+        <p class="text-lg text-slate-400 max-w-2xl mx-auto mb-8">
+            The world’s first closed-loop biometric wearable targeting T10–L1 spinal segments. Powered by ESP32, real-time EHG/GSR sensing, and synchronized thermal vasodilation.
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+            <a href="#demo" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-xl font-semibold shadow-lg shadow-purple-600/30 flex items-center justify-center gap-2">
+                <i class="fa-solid fa-play"></i> Watch Video Demo
+            </a>
+            <a href="https://github.com" target="_blank" class="bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-200 px-6 py-3 rounded-xl font-semibold flex items-center justify-center gap-2">
+                <i class="fa-brands fa-github"></i> Source Code
+            </a>
+        </div>
+    </section>
+
+    <!-- Problem & Solution Grid -->
+    <section id="about" class="py-16 bg-slate-900 border-y border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-8">
+            <div class="p-6 bg-slate-950 rounded-2xl border border-slate-800">
+                <div class="w-12 h-12 bg-red-950/60 border border-red-800/50 rounded-xl flex items-center justify-center text-red-400 mb-4 text-xl">
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2">The Problem</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">
+                    Over 80% of women suffer from primary dysmenorrhea. Conventional options like NSAIDs cause gastrointestinal risks, while standard TENS devices are generic, static, and manual.
+                </p>
+            </div>
+            <div class="p-6 bg-slate-950 rounded-2xl border border-slate-800">
+                <div class="w-12 h-12 bg-purple-950/60 border border-purple-800/50 rounded-xl flex items-center justify-center text-purple-400 mb-4 text-xl">
+                    <i class="fa-solid fa-microchip"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Closed-Loop Sensing</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">
+                    Integrated EHG and GSR analog front-ends continuously monitor physiological stress markers to detect cramp onset before peak pain occurs.
+                </p>
+            </div>
+            <div class="p-6 bg-slate-950 rounded-2xl border border-slate-800">
+                <div class="w-12 h-12 bg-pink-950/60 border border-pink-800/50 rounded-xl flex items-center justify-center text-pink-400 mb-4 text-xl">
+                    <i class="fa-solid fa-bolt"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Dual-Modality Therapy</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">
+                    Combines asymmetric biphasic stimulation (80–120 Hz) with dynamic thermal hysteresis control (25°C–50°C) to block spinal pain signals instantly.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Specs Section -->
+    <section id="specs" class="py-20 max-w-5xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12">Hardware & Firmware Architecture</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+            <div class="bg-slate-900 p-6 rounded-2xl border border-slate-800">
+                <h4 class="text-purple-400 font-semibold mb-4 text-sm tracking-wider uppercase">Embedded Processing</h4>
+                <ul class="space-y-3 text-slate-300 text-sm">
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-purple-500"></i> Microcontroller: ESP32 Dual-Core (240MHz)</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-purple-500"></i> Display: 1.3" SH1106 OLED via I2C (0x3C)</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-purple-500"></i> Thermal Control: Solid-State Relay with Safety Hysteresis</li>
+                </ul>
+            </div>
+            <div class="bg-slate-900 p-6 rounded-2xl border border-slate-800">
+                <h4 class="text-purple-400 font-semibold mb-4 text-sm tracking-wider uppercase">Biometric Acquisition</h4>
+                <ul class="space-y-3 text-slate-300 text-sm">
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-purple-500"></i> Analog Processing: ADC1 Pins (GPIO 32, 33, 34)</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-purple-500"></i> Multi-Sensor: Pulse, ECG/EHG, and Galvanic Skin Response</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-purple-500"></i> Target BOM Cost: ₹800 – ₹1,200 per unit</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Validation & Video Demo -->
+    <section id="demo" class="py-16 bg-slate-900 border-t border-slate-800">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4">Live Prototype Demonstration</h2>
+            <p class="text-slate-400 text-sm mb-8">Watch the ESP32 reading analog biometric channels and driving thermal hysteresis in real-time.</p>
+            <div class="aspect-video bg-slate-950 rounded-2xl border border-slate-800 flex items-center justify-center text-slate-600">
+                <!-- Replace src with your YouTube embed link when ready -->
+                <iframe class="w-full h-full rounded-2xl" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Demo Video" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 text-center text-slate-500 text-xs border-t border-slate-900">
+        <p>E-TENS Bio-Patch • Built for IEEE Tech for Tomorrow Hackathon</p>
+    </footer>
+
+</body>
+</html>
